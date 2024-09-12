@@ -3,14 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS Map</title>
+        <title>Map</title>
     </head>
     <body>
-        <div class="map">
-            <div class="land area1"></div>
-            <div class="land area2"></div>
-            <div class="land area3"></div>
-            <div class="land area4"></div>
+        <div class="map" id="map">
+            <div class="land area1" data-name="Area 1"></div>
+            <div class="land area2" data-name="Area 2"></div>
+            <div class="land area3" data-name="Area 3"></div>
+            <div class="land area4" data-name="Area 4"></div>
         </div>
+        <div id="info" class="info">Hover over an area</div>
+
+        <script src="script.js"></script>
     </body>
 </html>
