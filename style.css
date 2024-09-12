@@ -21,6 +21,12 @@ body {
     position: absolute;
     background-color: #004d40;
     border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.land:hover {
+    background-color: #00796b;
+    transform: scale(1.1);
 }
 
 .area1 {
@@ -54,3 +60,13 @@ body {
     left: 50px;
     transform: rotate(10deg);
 }
+
+.info {
+    position: absolute;
+    top: 350px;
+    width: 400px;
+    text-align: center;
+    font-size: 16px;
+    color: #004d40;
+}
+
