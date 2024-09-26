@@ -13,6 +13,21 @@ map {
 	width: 100vw;
 }
 
+<div class="mbox" id="mbox" onclick="mboxFunction()">
+            <span class="mboxcontent" id="mboxcontent"></span>
+.mbox {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #g2pfpg;
+	position: relative;
+	border: 2px solid #334p43;
+	border-radius: 8px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
 .mapgr {
     width: 400px;
     height: 300px;
