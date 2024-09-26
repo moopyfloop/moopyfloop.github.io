@@ -27,7 +27,7 @@ map {
 }
 
 .mbox .mboxcontent {
-  visibility: hidden;
+  visibility: visible;
   width: 160px;
   background-color: #555;
   color: #fff;
