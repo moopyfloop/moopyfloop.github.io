@@ -7,6 +7,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 map.locate({setView: true, maxZoom: 16});
 
+document.getElementById("map").style.display = "none";
+
 document.addEventListener('DOMContentLoaded', () => {
     const areas = document.querySelectorAll('.land');
     const info = document.getElementById('info');
