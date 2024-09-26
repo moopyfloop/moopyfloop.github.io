@@ -8,9 +8,8 @@ html, body {
 	width: 100vw;
 }
 	
-map { 
-	height: 100%;
-	width: 100vw;
+.leaflet-control-container {
+	visibility: hidden;
 }
 
 .mbox {
@@ -27,22 +26,6 @@ map {
 	cursor: pointer;
 }
 
-.mbox .mboxcontent {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-}
-
-.mbox .openmbox {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
 .expandmbox {
 	transform: scale(1.6) translate(0, 20%);
 }
@@ -55,67 +38,4 @@ map {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
-}
-
-.mapgr {
-    width: 400px;
-    height: 300px;
-    background-color: #b2dfdb;
-    position: relative;
-    border: 2px solid #004d40;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.land {
-    position: absolute;
-    background-color: #004d40;
-    border-radius: 4px;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.land:hover {
-    background-color: #00796b;
-    transform: scale(1.6);
-}
-
-.area1 {
-    width: 60px;
-    height: 80px;
-    top: 20px;
-    left: 20px;
-    transform: rotate(75deg);
-}
-
-.area2 {
-    width: 100px;
-    height: 60px;
-    top: 100px;
-    left: 100px;
-    transform: rotate(180deg);
-}
-
-.area3 {
-    width: 80px;
-    height: 100px;
-    bottom: 20px;
-    right: 30px;
-    transform: rotate(180deg);
-}
-
-.area4 {
-    width: 120px;
-    height: 80px;
-    bottom: 20px;
-    left: 50px;
-    transform: rotate(180deg);
-}
-
-.info {
-    position: relative;
-    top: 350px;
-    width: 400px;
-    text-align: center;
-    font-size: 16px;
-    color: #004d40;
 }
