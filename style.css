@@ -18,9 +18,9 @@ map {
 	display: inline-block;
 	width: 100px;
 	height: 100px;
-	background-color: #g2pfpg;
+	background-color: #e399f9;
 	position: relative;
-	border: 2px solid #334p43;
+	border: 2px solid #8477cd;
 	border-radius: 8px;
 	overflow: hidden;
 	cursor: pointer;
