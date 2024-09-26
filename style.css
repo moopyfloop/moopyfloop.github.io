@@ -43,7 +43,7 @@ map {
   animation: fadeIn 1s;
 }
 
-.mbox .expandmbox {
+.expandmbox {
 	transform: scale(1.6) translate(0, 20%);
 }
 
