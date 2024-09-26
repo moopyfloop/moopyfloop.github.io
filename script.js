@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     areas.forEach(area => {
         area.addEventListener('click', () => {
             info.textContent = `You clicked on ${area.getAttribute('data-name')}`;
+            document.getElementById("map").style.display = "block";
         });
     });
 });
