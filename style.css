@@ -22,6 +22,7 @@ map {
 	border: 2px solid #8477cd;
 	border-radius: 8px;
 	transform: rotate(180deg);
+	transition: transform 0.3s;
 	cursor: pointer;
 }
 
