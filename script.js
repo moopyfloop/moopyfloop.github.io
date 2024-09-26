@@ -12,7 +12,7 @@ document.getElementById("map").style.display = "none";
 function mboxFunction() {
     var mbox = document.getElementById("mboxflat");
     mbox.classList.toggle("openmbox");
-    document.getElementById("mbox").style.transform = "scale(1.6)";
+    document.getElementById("mbox").style.transform = "scale(1.6) translate(0, 20%)";
 }
 
 document.addEventListener('DOMContentLoaded', () => {
