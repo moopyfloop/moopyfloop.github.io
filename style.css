@@ -43,6 +43,10 @@ map {
   animation: fadeIn 1s;
 }
 
+.mbox .expandmbox {
+transform: "scale(1.6) translate(0, 20%);
+}
+
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
