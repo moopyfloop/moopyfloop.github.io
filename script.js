@@ -1,8 +1,8 @@
-const map = L.map('map').setView([51.505, -0.09], 13);
+var map = L.map('map').fitWorld();
 
-const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 100,
-	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 30,
+    attribution: '© OpenStreetMap'
 }).addTo(map);
 
 
