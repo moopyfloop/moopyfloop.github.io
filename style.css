@@ -15,13 +15,13 @@ map {
 
 .mbox {
 	position: relative;
-	display: inline-block;
+	display: block;
 	width: 100px;
 	height: 100px;
 	background-color: #e399f9;
-	position: relative;
 	border: 2px solid #8477cd;
 	border-radius: 8px;
+	transform: rotate(180deg);
 	cursor: pointer;
 }
 
