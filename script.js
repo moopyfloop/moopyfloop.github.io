@@ -10,9 +10,7 @@ map.locate({setView: true, maxZoom: 16});
 document.getElementById("map").style.display = "none";
 
 function mboxFunction() {
-    var flat = document.getElementById("mboxflat");
     var mbox = document.getElementById("mbox");
-    flat.classList.toggle("openmbox");
     mbox.classList.toggle("expandmbox");
 }
 
