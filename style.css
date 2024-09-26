@@ -13,8 +13,6 @@ map {
 	width: 100vw;
 }
 
-<div class="mbox" id="mbox" onclick="mboxFunction()">
-            <span class="mboxcontent" id="mboxcontent"></span>
 .mbox {
 	position: relative;
 	display: inline-block;
