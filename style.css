@@ -79,7 +79,7 @@ map {
     height: 80px;
     top: 20px;
     left: 20px;
-    transform: rotate(-10deg);
+    transform: rotate(75deg);
 }
 
 .area2 {
@@ -87,7 +87,7 @@ map {
     height: 60px;
     top: 100px;
     left: 100px;
-    transform: rotate(15deg);
+    transform: rotate(360deg);
 }
 
 .area3 {
@@ -95,7 +95,7 @@ map {
     height: 100px;
     bottom: 20px;
     right: 30px;
-    transform: rotate(-5deg);
+    transform: rotate(360deg);
 }
 
 .area4 {
@@ -103,7 +103,7 @@ map {
     height: 80px;
     bottom: 20px;
     left: 50px;
-    transform: rotate(10deg);
+    transform: rotate(360deg);
 }
 
 .info {
