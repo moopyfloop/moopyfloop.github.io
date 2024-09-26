@@ -5,7 +5,7 @@ html, body {
 }
 .leaflet-container {
 	height: 100%;
-	width: 100vw;
+	width: 100%;
 }
 	
 .leaflet-control-container {
@@ -21,13 +21,15 @@ html, body {
 	background-color: #e399f9;
 	border: 2px solid #8477cd;
 	border-radius: 8px;
-	transform: rotate(180deg);
-	transition: transform 0.3s;
+	transform: translate(0, 20px);
+	transition: width 0.3s, height 0.3s, transform 0.3s;
 	cursor: pointer;
 }
 
 .expandmbox {
-	transform: scale(1.6) translate(0, 20%);
+	width: 100vw;
+	height: 100vh;
+	transform: translate(0, 0px);
 }
 
 @-webkit-keyframes fadeIn {
