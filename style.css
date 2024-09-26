@@ -22,7 +22,6 @@ map {
 	position: relative;
 	border: 2px solid #8477cd;
 	border-radius: 8px;
-	overflow: hidden;
 	cursor: pointer;
 }
 
